@@ -2,16 +2,16 @@ Maintainers: Couchbase Docker Team <docker@couchbase.com> (@cb-robot)
 GitRepo: https://github.com/couchbase/docker
 
 Tags: latest, enterprise, 7.0.3, enterprise-7.0.3
-GitCommit: ce17444d6e082a8a08ba636c513e3460b98d3d2c
+GitCommit: e3c274f39e02aa24e8dc7e486aefba916a7b747a
 Directory: enterprise/couchbase-server/7.0.3
 
 Tags: community, community-7.0.2
 GitCommit: aec4494ab5280caf567997d72714f57572a6315b
 Directory: community/couchbase-server/7.0.2
 
-Tags: 6.6.4, enterprise-6.6.4
-GitCommit: e27aaf8d37861a570ad62a96ea04c84026a59282
-Directory: enterprise/couchbase-server/6.6.4
+Tags: 6.6.5, enterprise-6.6.5
+GitCommit: b9ef0fefa25a0ca646bf746765f66bf33ee3fac7
+Directory: enterprise/couchbase-server/6.6.5
 
 Tags: community-6.6.0
 GitCommit: 5929be778eb5306f116f71cc9a0a23fea6d9a7aa
@@ -20,3 +20,10 @@ Directory: community/couchbase-server/6.6.0
 Tags: 6.0.5, enterprise-6.0.5
 GitCommit: 5929be778eb5306f116f71cc9a0a23fea6d9a7aa
 Directory: enterprise/couchbase-server/6.0.5
+
+# One-off addition of older release 6.5.2 which has been updated
+# to a newer base image
+
+Tags: 6.5.2, enterprise-6.5.2
+GitCommit: d24fe7e4e45de16395e6da37a97969e8ce198b45
+Directory: enterprise/couchbase-server/6.5.2

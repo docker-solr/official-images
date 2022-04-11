@@ -62,9 +62,6 @@ imageTests+=(
 	[eclipse-mosquitto]='
 		eclipse-mosquitto-basics
 	'
-	[elasticsearch]='
-		elasticsearch-basics
-	'
 	[elixir]='
 		elixir-hello-world
 	'
@@ -143,9 +140,7 @@ imageTests+=(
 		mysql-log-bin
 	'
 	[nextcloud]='
-		nextcloud-cli-mysql
-		nextcloud-cli-postgres
-		nextcloud-cli-sqlite
+		nextcloud-cli
 	'
 	[nextcloud:apache]='
 		nextcloud-apache-run
@@ -201,6 +196,7 @@ imageTests+=(
 	[python]='
 		python-hy
 		python-imports
+		python-no-pyc
 		python-pip-requests-ssl
 		python-sqlite3
 		python-stack-size

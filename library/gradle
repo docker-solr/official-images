@@ -4,60 +4,60 @@ GitRepo: https://github.com/keeganwitt/docker-gradle.git
 
 # Gradle 7.x
 
-Tags: 7.3.2-jdk8, 7.3-jdk8, 7-jdk8, jdk8
+Tags: 7.4.2-jdk8, 7.4-jdk8, 7-jdk8, jdk8
 Architectures: amd64, arm32v7, arm64v8, ppc64le
-GitCommit: 5b44626e3493d34db37057cedd79333a90adae3a
+GitCommit: a4f56d70a62a80266ae995a56c67fb498def6c23
 Directory: jdk8
 
-Tags: 7.3.2-jdk11, 7.3-jdk11, 7-jdk11, jdk11
+Tags: 7.4.2-jdk11, 7.4-jdk11, 7-jdk11, jdk11
 Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 5b44626e3493d34db37057cedd79333a90adae3a
+GitCommit: a4f56d70a62a80266ae995a56c67fb498def6c23
 Directory: jdk11
 
-Tags: 7.3.2-jdk11-alpine, 7.3-jdk11-alpine, 7-jdk11-alpine, jdk11-alpine
+Tags: 7.4.2-jdk11-alpine, 7.4-jdk11-alpine, 7-jdk11-alpine, jdk11-alpine
 Architectures: amd64
-GitCommit: 5b44626e3493d34db37057cedd79333a90adae3a
+GitCommit: a4f56d70a62a80266ae995a56c67fb498def6c23
 Directory: jdk11-alpine
 
-Tags: 7.3.2-jdk17, 7.3-jdk17, 7-jdk17, jdk17, 7.3.2-jdk, 7.3-jdk, 7-jdk, jdk, 7.3.2, 7.3, 7, latest
+Tags: 7.4.2-jdk17, 7.4-jdk17, 7-jdk17, jdk17, 7.4.2-jdk, 7.4-jdk, 7-jdk, jdk, 7.4.2, 7.4, 7, latest
 Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 5b44626e3493d34db37057cedd79333a90adae3a
+GitCommit: a4f56d70a62a80266ae995a56c67fb498def6c23
 Directory: jdk17
 
-Tags: 7.3.2-jdk17-alpine, 7.3-jdk17-alpine, 7-jdk17-alpine, jdk17-alpine, 7.3.2-jdk-alpine, 7.3-jdk-alpine, 7-jdk-alpine, jdk-alpine, 7.3.2-alpine, 7.3-alpine, 7-alpine, alpine
+Tags: 7.4.2-jdk17-alpine, 7.4-jdk17-alpine, 7-jdk17-alpine, jdk17-alpine, 7.4.2-jdk-alpine, 7.4-jdk-alpine, 7-jdk-alpine, jdk-alpine, 7.4.2-alpine, 7.4-alpine, 7-alpine, alpine
 Architectures: amd64
-GitCommit: 5b44626e3493d34db37057cedd79333a90adae3a
+GitCommit: a4f56d70a62a80266ae995a56c67fb498def6c23
 Directory: jdk17-alpine
 
 
 # Gradle 6.x
 
-Tags: 6.9.1-jdk8, 6.9-jdk8, 6-jdk8
+Tags: 6.9.2-jdk8, 6.9-jdk8, 6-jdk8
 GitFetch: refs/heads/6
 Architectures: amd64, arm32v7, arm64v8, ppc64le
-GitCommit: 06a0447f69e8e8c3465386eed2a75fc0cbc96050
+GitCommit: 52b6facc824989b809f42b71ea158b54e0402587
 Directory: jdk8
 
-Tags: 6.9.1-jdk11, 6.9-jdk11, 6-jdk11
+Tags: 6.9.2-jdk11, 6.9-jdk11, 6-jdk11
 GitFetch: refs/heads/6
 Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 06a0447f69e8e8c3465386eed2a75fc0cbc96050
+GitCommit: 52b6facc824989b809f42b71ea158b54e0402587
 Directory: jdk11
 
-Tags: 6.9.1-jdk11-alpine, 6.9-jdk11-alpine, 6-jdk11-alpine
+Tags: 6.9.2-jdk11-alpine, 6.9-jdk11-alpine, 6-jdk11-alpine
 GitFetch: refs/heads/6
 Architectures: amd64
-GitCommit: 06a0447f69e8e8c3465386eed2a75fc0cbc96050
+GitCommit: 52b6facc824989b809f42b71ea158b54e0402587
 Directory: jdk11-alpine
 
-Tags: 6.9.1-jdk17, 6.9-jdk17, 6-jdk17, 6.9.1-jdk, 6.9-jdk, 6-jdk, 6.9.1, 6.9, 6
+Tags: 6.9.2-jdk17, 6.9-jdk17, 6-jdk17, 6.9.2-jdk, 6.9-jdk, 6-jdk, 6.9.2, 6.9, 6
 GitFetch: refs/heads/6
 Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 06a0447f69e8e8c3465386eed2a75fc0cbc96050
+GitCommit: 52b6facc824989b809f42b71ea158b54e0402587
 Directory: jdk17
 
-Tags: 6.9.1-jdk17-alpine, 6.9-jdk17-alpine, 6-jdk17-alpine, 6.9.1-jdk-alpine, 6.9-jdk-alpine, 6-jdk-alpine, 6.9.1-alpine, 6.9-alpine, 6-alpine
+Tags: 6.9.2-jdk17-alpine, 6.9-jdk17-alpine, 6-jdk17-alpine, 6.9.2-jdk-alpine, 6.9-jdk-alpine, 6-jdk-alpine, 6.9.2-alpine, 6.9-alpine, 6-alpine
 GitFetch: refs/heads/6
 Architectures: amd64
-GitCommit: 06a0447f69e8e8c3465386eed2a75fc0cbc96050
+GitCommit: 52b6facc824989b809f42b71ea158b54e0402587
 Directory: jdk17-alpine

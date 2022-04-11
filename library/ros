@@ -96,7 +96,7 @@ Directory: ros/foxy/ubuntu/focal/ros-base
 
 Tags: foxy-ros1-bridge, foxy-ros1-bridge-focal
 Architectures: amd64, arm64v8
-GitCommit: d1e081089b3f7d8c118561b0f39998e7163a5f0a
+GitCommit: 8c7ec280db9c754aa163e84bf70f4cbb902e69fb
 Directory: ros/foxy/ubuntu/focal/ros1-bridge
 
 
@@ -118,7 +118,7 @@ Directory: ros/galactic/ubuntu/focal/ros-base
 
 Tags: galactic-ros1-bridge, galactic-ros1-bridge-focal
 Architectures: amd64, arm64v8
-GitCommit: d1e081089b3f7d8c118561b0f39998e7163a5f0a
+GitCommit: 8c7ec280db9c754aa163e84bf70f4cbb902e69fb
 Directory: ros/galactic/ubuntu/focal/ros1-bridge
 
 
@@ -126,20 +126,15 @@ Directory: ros/galactic/ubuntu/focal/ros1-bridge
 # Release: rolling
 
 ########################################
-# Distro: ubuntu:focal
+# Distro: ubuntu:jammy
 
-Tags: rolling-ros-core, rolling-ros-core-focal
+Tags: rolling-ros-core, rolling-ros-core-jammy
 Architectures: amd64, arm64v8
-GitCommit: 11c613986e35a1f36fd0fa18b49173e0c564cf1d
-Directory: ros/rolling/ubuntu/focal/ros-core
+GitCommit: 86029c8abad4b4e52d95a33af079bdb874fa0b0c
+Directory: ros/rolling/ubuntu/jammy/ros-core
 
-Tags: rolling-ros-base, rolling-ros-base-focal, rolling
+Tags: rolling-ros-base, rolling-ros-base-jammy, rolling
 Architectures: amd64, arm64v8
-GitCommit: a5644adacdca4a49faf10221620048175cdd7262
-Directory: ros/rolling/ubuntu/focal/ros-base
-
-Tags: rolling-ros1-bridge, rolling-ros1-bridge-focal
-Architectures: amd64, arm64v8
-GitCommit: 048b3f6392998df61c330b789602bf83aae9c1be
-Directory: ros/rolling/ubuntu/focal/ros1-bridge
+GitCommit: 86029c8abad4b4e52d95a33af079bdb874fa0b0c
+Directory: ros/rolling/ubuntu/jammy/ros-base
 

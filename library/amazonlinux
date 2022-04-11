@@ -2,37 +2,52 @@ Maintainers: Amazon Linux <amazon-linux@amazon.com> (@amazonlinux),
              Frédérick Lefebvre (@fred-lefebvre),
              Samuel Karp (@samuelkarp),
              Stewart Smith (@stewartsmith),
-             Jamie Anderson (@jamieand),
              Christopher Miller (@mysteriouspants),
              Sumit Tomer (@sktomer),
              Sean Kelly (@cbgbt),
              Tanu Rampal (@trampal),
              Kyle Gosselin-Harris (@kgharris),
+             Sam Thornton (@mrthornazon),
              Preston Carpenter (@timidger),
-             Richard Kelly (@rpkelly)
+             Richard Kelly (@rpkelly),
+             Joseph Howell-Burke (@jhowell-burke)
 GitRepo: https://github.com/amazonlinux/container-images.git
-GitCommit: c9ec4113f694e139e5b2fc2eaf02da0aaa3c7f6c
+GitCommit: ddc781764ced8c0921bb246a7475bc8e1f5b9c2d
 
-Tags: 2.0.20211201.0, 2, latest
+Tags: 2.0.20220316.0, 2, latest
 Architectures: amd64, arm64v8
 amd64-GitFetch: refs/heads/amzn2
-amd64-GitCommit: 7c08ab3e1afa28cd5a9819e1b05d141f28ed5557
+amd64-GitCommit: d55c04f219a765500b97b89955a6a628ce9e9857
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-arm64v8-GitCommit: eb49f67c3f8896806bf96382b43a6c50fc669bd3
+arm64v8-GitCommit: b79f0187938600484e468f34db86a3b37d0377c2
 
-Tags: 2.0.20211201.0-with-sources, 2-with-sources, with-sources
+Tags: 2.0.20220316.0-with-sources, 2-with-sources, with-sources
 Architectures: amd64, arm64v8
 amd64-GitFetch: refs/heads/amzn2-with-sources
-amd64-GitCommit: 6e79f8593cda0b3822595c5513895213ab7adb36
+amd64-GitCommit: eb34529fd15e21a1fc455dbcbc486ea26cafebbe
 arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
-arm64v8-GitCommit: b10675df29cb7987bc231d813b2ab88ea5fbe103
+arm64v8-GitCommit: db6711b34aa4a7424f55f551d55377668e78b3e6
 
-Tags: 2018.03.0.20211201.0, 2018.03, 1
+Tags: 2018.03.0.20220315.0, 2018.03, 1
 Architectures: amd64
 amd64-GitFetch: refs/heads/2018.03
-amd64-GitCommit: 1142e9739519cd6a2992a029ae25b6db686183f8
+amd64-GitCommit: 69a756c313a87302ea529a7c2d911b65081fe5e1
 
-Tags: 2018.03.0.20211201.0-with-sources, 2018.03-with-sources, 1-with-sources
+Tags: 2018.03.0.20220315.0-with-sources, 2018.03-with-sources, 1-with-sources
 Architectures: amd64
 amd64-GitFetch: refs/heads/2018.03-with-sources
-amd64-GitCommit: 6da53c8eb5e75467c2121aa46dda93e2b0849fed
+amd64-GitCommit: b4ded7a10bda59b6315353ca0ad7c85befa0fd3f
+
+Tags: 2022.0.20220315.0, 2022, devel
+Architectures: amd64, arm64v8
+amd64-GitFetch: refs/heads/al2022
+amd64-GitCommit: b446ccb4166363a3df14286f83cfc74c99e230f4
+arm64v8-GitFetch: refs/heads/al2022-arm64
+arm64v8-GitCommit: 6ae71400af9fb876d3871fb4eaa61f2f7363d545
+
+Tags: 2022.0.20220315.0-with-sources, 2022-with-sources, devel-with-sources
+Architectures: amd64, arm64v8
+amd64-GitFetch: refs/heads/al2022-with-sources
+amd64-GitCommit: 87d9d1a07c4e5afd1f72df96f1c824a9facd15cc
+arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
+arm64v8-GitCommit: 2c8a2941ab6c41f375b8bb245779d0ebdcb07c31

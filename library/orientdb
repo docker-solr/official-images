@@ -1,35 +1,35 @@
 
 Maintainers: Luigi Dell'Aquila <l.dellaquila@orientdb.com> (@luigidellaquila)
 
-Tags: 3.2.2, 3.2, latest
+Tags: 3.2.5, 3.2, latest
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git
-GitCommit: f64bde2c10f5179d35dfd42a68ee1065efc789a0
-Directory: release/3.2.x/3.2.2
+GitCommit: 3d99cb4aaf8078b85856c592d66f34290429b149
+Directory: release/3.2.x/3.2.5
 
-Tags: 3.2.2-tp3, 3.2-tp3
+Tags: 3.2.5-tp3, 3.2-tp3
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git
-GitCommit: f64bde2c10f5179d35dfd42a68ee1065efc789a0
-Directory: release/3.2.x/3.2.2-tp3
+GitCommit: 3d99cb4aaf8078b85856c592d66f34290429b149
+Directory: release/3.2.x/3.2.5-tp3
 
-Tags: 3.1.15, 3.1
+Tags: 3.1.16, 3.1
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git
-GitCommit: 20b9acfb972c873a62a417b9e51e03c1d61731d9
-Directory: release/3.1.x/3.1.15
+GitCommit: e62ed13124e3bba53ac63959ac15c9eb4223e7e8
+Directory: release/3.1.x/3.1.16
 
-Tags: 3.1.15-tp3, 3.1-tp3
+Tags: 3.1.16-tp3, 3.1-tp3
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git
-GitCommit: 20b9acfb972c873a62a417b9e51e03c1d61731d9
-Directory: release/3.1.x/3.1.15-tp3
+GitCommit: e62ed13124e3bba53ac63959ac15c9eb4223e7e8
+Directory: release/3.1.x/3.1.16-tp3
 
-Tags: 3.0.40, 3.0
+Tags: 3.0.42, 3.0
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git
-GitCommit: 20e64cac8c98a519460a56987ee018538dae5f0e
-Directory: release/3.0.x/3.0.40
+GitCommit: 36ca408836d0dac2789de796e6e2545bac40ed07
+Directory: release/3.0.x/3.0.42
 
-Tags: 3.0.40-tp3, 3.0-tp3
+Tags: 3.0.42-tp3, 3.0-tp3
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git
-GitCommit: 20e64cac8c98a519460a56987ee018538dae5f0e
-Directory: release/3.0.x/3.0.40-tp3
+GitCommit: 36ca408836d0dac2789de796e6e2545bac40ed07
+Directory: release/3.0.x/3.0.42-tp3
 
 Tags: 2.2.37, 2.2
 GitRepo: https://github.com/orientechnologies/orientdb-docker.git

@@ -4,12 +4,17 @@ Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/logstash.git
 
-Tags: 7.16.1
+Tags: 8.1.2
 Architectures: amd64, arm64v8
-GitCommit: eae0ee15dc396971d9c80716c3d3f8c7987a46c1
+GitCommit: 9a0aa8303b734597353588493aeb314456b05328
+Directory: 8
+
+Tags: 7.17.2
+Architectures: amd64, arm64v8
+GitCommit: 601905e33e09f3b2d17c98387183b13c97e43896
 Directory: 7
 
-Tags: 6.8.21
+Tags: 6.8.23
 Architectures: amd64
-GitCommit: 134f7640abdd578e9db6dbec1604974d0fadea12
+GitCommit: 4c31d4c6b43c303275256545b5ac5111afa0f2e1
 Directory: 6
