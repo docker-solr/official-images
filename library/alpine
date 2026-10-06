@@ -1,10 +1,10 @@
 Maintainers: Natanael Copa <ncopa@alpinelinux.org> (@ncopa)
 GitRepo: https://github.com/alpinelinux/docker-alpine.git
 
-Tags: 20220328, edge
+Tags: 20260805, edge
 Architectures: arm64v8, arm32v6, arm32v7, ppc64le, riscv64, s390x, i386, amd64
 GitFetch: refs/heads/edge
-GitCommit: 216cb26780d883acfedc156200bb520f45d170d5
+GitCommit: 410e6fcf56b6bfd6e6b3acf0ab59a5ad1381ca54
 arm64v8-Directory: aarch64/
 arm32v6-Directory: armhf/
 arm32v7-Directory: armv7/
@@ -14,51 +14,54 @@ s390x-Directory: s390x/
 i386-Directory: x86/
 amd64-Directory: x86_64/
 
-Tags: 3.15.4, 3.15, 3, latest
-Architectures: arm64v8, arm32v6, arm32v7, ppc64le, s390x, i386, amd64
-GitFetch: refs/heads/v3.15
-GitCommit: fc965e3222f368bea8e07c1c1da70b6928281a76
+Tags: 3.24.2, 3.24, 3, latest
+Architectures: arm64v8, arm32v6, arm32v7, ppc64le, riscv64, s390x, i386, amd64
+GitFetch: refs/heads/v3.24
+GitCommit: 1c744e2d49059e51b063a11a6e3e18c9ccf04ab8
 arm64v8-Directory: aarch64/
 arm32v6-Directory: armhf/
 arm32v7-Directory: armv7/
 ppc64le-Directory: ppc64le/
+riscv64-Directory: riscv64/
 s390x-Directory: s390x/
 i386-Directory: x86/
 amd64-Directory: x86_64/
 
-Tags: 3.14.6, 3.14
-Architectures: arm64v8, arm32v6, arm32v7, ppc64le, s390x, i386, amd64
-GitFetch: refs/heads/v3.14
-GitCommit: acdada9286850d1b48abd8944ca4f8f8ea909372
+Tags: 3.23.6, 3.23
+Architectures: arm64v8, arm32v6, arm32v7, ppc64le, riscv64, s390x, i386, amd64
+GitFetch: refs/heads/v3.23
+GitCommit: 00d3407329e4c65f237cc1e325a4ab0cb4974df4
 arm64v8-Directory: aarch64/
 arm32v6-Directory: armhf/
 arm32v7-Directory: armv7/
 ppc64le-Directory: ppc64le/
+riscv64-Directory: riscv64/
 s390x-Directory: s390x/
 i386-Directory: x86/
 amd64-Directory: x86_64/
 
-Tags: 3.13.10, 3.13
-Architectures: arm64v8, arm32v6, arm32v7, ppc64le, s390x, i386, amd64
-GitFetch: refs/heads/v3.13
-GitCommit: 52cb02afe883694d7b711735e66e1a08fb139011
+Tags: 3.22.6, 3.22
+Architectures: arm64v8, arm32v6, arm32v7, ppc64le, riscv64, s390x, i386, amd64
+GitFetch: refs/heads/v3.22
+GitCommit: 32cb3f1f45f4fee15882936c06a264eb9e5130fe
 arm64v8-Directory: aarch64/
 arm32v6-Directory: armhf/
 arm32v7-Directory: armv7/
 ppc64le-Directory: ppc64le/
+riscv64-Directory: riscv64/
 s390x-Directory: s390x/
 i386-Directory: x86/
 amd64-Directory: x86_64/
 
-Tags: 3.12.12, 3.12
-Architectures: arm64v8, arm32v6, arm32v7, ppc64le, s390x, i386, amd64
-GitFetch: refs/heads/v3.12
-GitCommit: 0cc7fea5828303fa14d754bab4f9161a8cac4ba1
+Tags: 3.21.8, 3.21
+Architectures: arm64v8, arm32v6, arm32v7, ppc64le, riscv64, s390x, i386, amd64
+GitFetch: refs/heads/v3.21
+GitCommit: 45ca5a796a9e1c0b9de1e279514331000b7ff921
 arm64v8-Directory: aarch64/
 arm32v6-Directory: armhf/
 arm32v7-Directory: armv7/
 ppc64le-Directory: ppc64le/
+riscv64-Directory: riscv64/
 s390x-Directory: s390x/
 i386-Directory: x86/
 amd64-Directory: x86_64/
-

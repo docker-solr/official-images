@@ -3,49 +3,181 @@ Maintainers: JRuby Admin <admin@jruby.org> (@jruby),
              Thomas E Enebo <tom.enebo@gmail.com> (@enebo)
 GitRepo: https://github.com/jruby/docker-jruby.git
 GitFetch: refs/heads/master
-GitCommit: fae50010fae73e3cbed04c660747419413096767
+GitCommit: b1fb2a5c928918cb808bb890221f56ec3111b4c4
 
-Tags: latest, 9, 9.3, 9.3.4, 9.3-jre, 9.3-jre8, 9.3.4-jre, 9.3.4-jre8, 9.3.4.0, 9.3.4.0-jre, 9.3.4.0-jre8
+Tags: latest, 10, 10.1, 10.1.2, 10.1-jre, 10.1-jre21, 10.1.2-jre, 10.1.2-jre21, 10.1.2.0, 10.1.2.0-jre, 10.1.2.0-jre21
+Architectures: amd64, arm64v8
+Directory: 10.1/jre21
+
+Tags: 10-jdk, 10-jdk21, 10.1-jdk, 10.1-jdk21, 10.1.2-jdk, 10.1.2-jdk21, 10.1.2.0-jdk, 10.1.2.0-jdk21
+Architectures: amd64, arm64v8
+Directory: 10.1/jdk21
+
+Tags: 10.1-jre25, 10.1.2-jre25, 10.1.2.0-jre25
+Architectures: amd64, arm64v8
+Directory: 10.1/jre25
+
+Tags: 10.1-jdk25, 10.1.2-jdk25, 10.1.2.0-jdk25
+Architectures: amd64, arm64v8
+Directory: 10.1/jdk25
+
+Tags: 10.0, 10.0.7, 10.0-jre, 10.0-jre21, 10.0.7-jre, 10.0.7-jre21, 10.0.7.0, 10.0.7.0-jre, 10.0.7.0-jre21
+Architectures: amd64, arm64v8
+Directory: 10.0/jre21
+
+Tags: 10.0-jdk, 10.0-jdk21, 10.0.7-jdk, 10.0.7-jdk21, 10.0.7.0-jdk, 10.0.7.0-jdk21
+Architectures: amd64, arm64v8
+Directory: 10.0/jdk21
+
+Tags: 10.0-jre25, 10.0.7-jre25, 10.0.7.0-jre25
+Architectures: amd64, arm64v8
+Directory: 10.0/jre25
+
+Tags: 10.0-jdk25, 10.0.7-jdk25, 10.0.7.0-jdk25
+Architectures: amd64, arm64v8
+Directory: 10.0/jdk25
+
+Tags: 9, 9.4, 9.4.15, 9.4-jre, 9.4-jre8, 9.4.15-jre, 9.4.15-jre8, 9.4.15.0, 9.4.15.0-jre, 9.4.15.0-jre8
+Architectures: amd64, arm64v8
+Directory: 9.4/jre8
+
+Tags: 9-jdk, 9-jdk8, 9.4-jdk, 9.4-jdk8, 9.4.15-jdk, 9.4.15-jdk8, 9.4.15.0-jdk, 9.4.15.0-jdk8
+Architectures: amd64, arm64v8
+Directory: 9.4/jdk8
+
+Tags: 9.4-jre11, 9.4.15-jre11, 9.4.15.0-jre11
+Architectures: amd64, arm64v8
+Directory: 9.4/jre11
+
+Tags: 9.4-jdk11, 9.4.15-jdk11, 9.4.15.0-jdk11
+Architectures: amd64, arm64v8
+Directory: 9.4/jdk11
+
+Tags: 9.4-jdk17, 9.4.15-jdk17, 9.4.15.0-jdk17
+Architectures: amd64, arm64v8
+Directory: 9.4/jdk17
+
+Tags: 9.4-jre17, 9.4.15-jre17, 9.4.15.0-jre17
+Architectures: amd64, arm64v8
+Directory: 9.4/jre17
+
+Tags: 9.4-jdk21, 9.4.15-jdk21, 9.4.15.0-jdk21
+Architectures: amd64, arm64v8
+Directory: 9.4/jdk21
+
+Tags: 9.4-jre21, 9.4.15-jre21, 9.4.15.0-jre21
+Architectures: amd64, arm64v8
+Directory: 9.4/jre21
+
+Tags: 9.4-jdk25, 9.4.15-jdk25, 9.4.15.0-jdk25
+Architectures: amd64, arm64v8
+Directory: 9.4/jdk25
+
+Tags: 9.4-jre25, 9.4.15-jre25, 9.4.15.0-jre25
+Architectures: amd64, arm64v8
+Directory: 9.4/jre25
+
+Tags: 9.3, 9.3.15, 9.3-jre, 9.3-jre8, 9.3.15-jre, 9.3.15-jre8, 9.3.15.0, 9.3.15.0-jre, 9.3.15.0-jre8
 Architectures: amd64, arm64v8
 Directory: 9.3/jre8
 
-Tags: 9-jdk, 9-jdk8, 9.3-jdk, 9.3-jdk8, 9.3.4-jdk, 9.3.4-jdk8, 9.3.4.0-jdk, 9.3.4.0-jdk8
+Tags: 9.3-jdk, 9.3-jdk8, 9.3.15-jdk, 9.3.15-jdk8, 9.3.15.0-jdk, 9.3.15.0-jdk8
 Architectures: amd64, arm64v8
 Directory: 9.3/jdk8
 
-Tags: 9.3-jre11, 9.3.4-jre11, 9.3.4.0-jre11
+Tags: 9.3-jre11, 9.3.15-jre11, 9.3.15.0-jre11
 Architectures: amd64, arm64v8
 Directory: 9.3/jre11
 
-Tags: 9.3-jdk11, 9.3.4-jdk11, 9.3.4.0-jdk11
+Tags: 9.3-jdk11, 9.3.15-jdk11, 9.3.15.0-jdk11
 Architectures: amd64, arm64v8
 Directory: 9.3/jdk11
 
-Tags: 9.3-jdk17, 9.3.4-jdk17, 9.3.4.0-jdk17
+Tags: 9.3-jdk17, 9.3.15-jdk17, 9.3.15.0-jdk17
 Architectures: amd64, arm64v8
 Directory: 9.3/jdk17
 
-Tags: 9.2, 9.2.20, 9.2-jre, 9.2-jre8, 9.2.20-jre, 9.2.20-jre8, 9.2.20.1, 9.2.20.0-jre, 9.2.20.0-jre8
-Architectures: amd64
-Directory: 9.2/jre8
+Tags: 9.3-jre17, 9.3.15-jre17, 9.3.15.0-jre17
+Architectures: amd64, arm64v8
+Directory: 9.3/jre17
 
-Tags: 9.2-jdk, 9.2-jdk8, 9.2.20-jdk, 9.2.20-jdk8, 9.2.20.0-jdk, 9.2.20.1-jdk8
-Architectures: amd64
-Directory: 9.2/jdk8
+Tags: 9.3-jdk21, 9.3.15-jdk21, 9.3.15.0-jdk21
+Architectures: amd64, arm64v8
+Directory: 9.3/jdk21
 
-Tags: 9.2-jre11, 9.2.20-jre11, 9.2.20.1-jre11
-Architectures: amd64
-Directory: 9.2/jre11
+Tags: 9.3-jre21, 9.3.15-jre21, 9.3.15.0-jre21
+Architectures: amd64, arm64v8
+Directory: 9.3/jre21
 
-Tags: 9.2-jdk11, 9.2.20-jdk11, 9.2.20.1-jdk11
-Architectures: amd64
-Directory: 9.2/jdk11
+Tags: 10.0-dev-jre21
+Architectures: amd64, arm64v8
+Directory: 10.0-dev/jre21
 
-Tags: 9.2-jdk17, 9.2.20-jdk17, 9.2.20.1-jdk17
-Architectures: amd64
-Directory: 9.2/jdk17
+Tags: 10.0-dev-jdk21
+Architectures: amd64, arm64v8
+Directory: 10.0-dev/jdk21
 
-Tags: 9.2-onbuild, 9.2.20-onbuild, 9.2.20.1-onbuild
-Architectures: amd64
-Directory: 9.2/onbuild-jdk8
+Tags: 10.0-dev-jre25
+Architectures: amd64, arm64v8
+Directory: 10.0-dev/jre25
+
+Tags: 10.0-dev-jdk25
+Architectures: amd64, arm64v8
+Directory: 10.0-dev/jdk25
+
+Tags: 10.1-dev-jre21
+Architectures: amd64, arm64v8
+Directory: 10.1-dev/jre21
+
+Tags: 10.1-dev-jdk21
+Architectures: amd64, arm64v8
+Directory: 10.1-dev/jdk21
+
+Tags: 10.1-dev-jre25
+Architectures: amd64, arm64v8
+Directory: 10.1-dev/jre25
+
+Tags: 10.1-dev-jdk25
+Architectures: amd64, arm64v8
+Directory: 10.1-dev/jdk25
+
+Tags: 9.4-dev-jre8
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jre8
+
+Tags: 9.4-dev-jdk8
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jdk8
+
+Tags: 9.4-dev-jre11
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jre11
+
+Tags: 9.4-dev-jdk11
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jdk11
+
+Tags: 9.4-dev-jdk17
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jdk17
+
+Tags: 9.4-dev-jre17
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jre17
+
+Tags: 9.4-dev-jdk21
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jdk21
+
+Tags: 9.4-dev-jre21
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jre21
+
+Tags: 9.4-dev-jdk25
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jdk25
+
+Tags: 9.4-dev-jre25
+Architectures: amd64, arm64v8
+Directory: 9.4-dev/jre25
 

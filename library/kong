@@ -1,50 +1,20 @@
-Maintainers: Kong Docker Maintainers <support@konghq.com> (@thekonginc)
+Maintainers: Kong Docker Maintainers <team-gateway@konghq.com> (@team-gateway-bot)
 GitRepo: https://github.com/Kong/docker-kong.git
 
-Tags: 2.8.0-alpine, 2.8.0, 2.8, alpine, latest
-GitCommit: c32a80c3dd332d096d1a6461d2816ead344d43c5
-GitFetch: refs/tags/2.8.0
-Directory: alpine
-Architectures: amd64, arm64v8
-
-Tags: 2.8.0-ubuntu, 2.8-ubuntu, ubuntu
-GitCommit: c32a80c3dd332d096d1a6461d2816ead344d43c5
-GitFetch: refs/tags/2.8.0
+Tags: 3.9.3-ubuntu, 3.9-ubuntu, 3.9.3, 3.9, 3, latest, ubuntu
+GitCommit: d1ed165bfeb6304815bc537b3e8ff387fa0b350a
+GitFetch: refs/tags/3.9.3
 Directory: ubuntu
 Architectures: amd64, arm64v8
 
-Tags: 2.7.1-alpine, 2.7.1, 2.7
-GitCommit: d47ddd41ea2a489f36d15d3da956709bcf62dcca
-GitFetch: refs/tags/2.7.1
-Directory: alpine
-Architectures: amd64, arm64v8
-
-Tags: 2.7.1-ubuntu, 2.7-ubuntu
-GitCommit: d47ddd41ea2a489f36d15d3da956709bcf62dcca
-GitFetch: refs/tags/2.7.1
+Tags: 3.8.0-ubuntu, 3.8-ubuntu, 3.8.0, 3.8
+GitCommit: 1f5199f7da45c17f4344b811397e89899a160040
+GitFetch: refs/tags/3.8.0
 Directory: ubuntu
 Architectures: amd64, arm64v8
 
-Tags: 2.6.0-alpine, 2.6.0, 2.6
-GitCommit: 37b2520bddf243a14d28fbf616cc3cccf9906d91
-GitFetch: refs/tags/2.6.0
-Directory: alpine
-Architectures: amd64, arm64v8
-
-Tags: 2.6.0-ubuntu, 2.6-ubuntu
-GitCommit: 37b2520bddf243a14d28fbf616cc3cccf9906d91
-GitFetch: refs/tags/2.6.0
-Directory: ubuntu
-Architectures: amd64, arm64v8
-
-Tags: 2.5.1-alpine, 2.5.1, 2.5
-GitCommit: 74f3a1c189c13b8f94ae15343452fcd27ccce605
-GitFetch: refs/tags/2.5.1
-Directory: alpine
-Architectures: amd64, arm64v8
-
-Tags: 2.5.1-ubuntu, 2.5-ubuntu
-GitCommit: 74f3a1c189c13b8f94ae15343452fcd27ccce605
-GitFetch: refs/tags/2.5.1
+Tags: 3.4.2-ubuntu, 3.4-ubuntu, 3.4.2, 3.4
+GitCommit: e07de903edf213445a0540172d51529ac344b448
+GitFetch: refs/tags/3.4.2
 Directory: ubuntu
 Architectures: amd64, arm64v8

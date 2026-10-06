@@ -7,13 +7,17 @@ image="$1"
 
 # Build a client image with cgi-fcgi for testing
 clientImage='librarytest/nextcloud-fpm-run:fcgi-client'
-docker build -t "$clientImage" - > /dev/null <<'EOF'
-FROM debian:buster-slim
+if ! error="$(docker build -t "$clientImage" - 2>&1 <<-'EOF'
+	FROM debian:trixie-slim
 
-RUN set -x && apt-get update && apt-get install -y --no-install-recommends libfcgi-bin && rm -rf /var/lib/apt/lists/*
+	RUN set -x && apt-get update && apt-get install -y --no-install-recommends libfcgi-bin && apt-get dist-clean
 
-ENTRYPOINT ["cgi-fcgi"]
-EOF
+	ENTRYPOINT ["cgi-fcgi"]
+	EOF
+)"; then
+	echo "$error" >&2
+	exit 1
+fi
 
 # Create an instance of the container-under-test
 cid="$(docker run -d "$image")"
@@ -41,9 +45,9 @@ fcgi-request() {
 }
 
 # Make sure that PHP-FPM is listening and ready
-. "$dir/../../retry.sh" --tries 30 'fcgi-request GET /index.php' > /dev/null 2>&1
+. "$dir/../../retry.sh" --tries 10 --sleep 5 'fcgi-request GET /index.php' > /dev/null 2>&1
 
 # Check that we can request / and that it contains the pattern "Install" somewhere
 # <input type="submit" class="primary" value="Install" data-finishing="Installing …">
-fcgi-request GET '/index.php' | grep -i '"Install"' > /dev/null
+fcgi-request GET '/index.php' | grep -i -F -- 'a safe home for all your data' > /dev/null
 # (https://github.com/nextcloud/server/blob/68b2463107774bed28ee9e77b44e7395d49dacee/core/templates/installation.php#L164)

@@ -1,7 +1,7 @@
-Maintainers: Thorsten Weinz <thorsten.weinz@teamspeak.com> (@thorwe),
-             Peter Strempel <peter.strempel@teamspeak.com> (@peterstrempel)
+Maintainers: Hubert Nöbauer <hubert.noebauer@teamspeak.com> (@HuppiN),
+             Achim Klittich <achim.klittich@teamspeak.com> (@achimklittich)
 GitRepo: https://github.com/TeamSpeak-Systems/teamspeak-linux-docker-images
 
-Tags: 3.13, 3.13.6, latest
-GitCommit: ab76b77f97ba4c150126aaa6a045d3c7f8265ae9
+Tags: 3.13, 3.13.8, latest
+GitCommit: e03f9a91761c389d42568b7c0cdee63e77d38fb0
 Directory: alpine

@@ -1,0 +1,11 @@
+Maintainers: Daniel Ortiz <dortiz@krakend.io> (@taik0),
+             Daniel López <dlopez@krakend.io> (@kpacha),
+             Jorge Tarrero <jorge.tarrero@krakend.io> (@thedae),
+             David Hontecillas <david.hontecillas@krakend.io> (@dhontecillas)
+GitRepo: https://github.com/krakend/docker-library.git
+
+# Alpine images
+Tags: 3.0.0, 3.0, 3, latest
+Architectures: amd64, arm64v8
+GitCommit: efbbf7dcdb00d9f277d8720ce08501293537b07c
+Directory: 3.0.0

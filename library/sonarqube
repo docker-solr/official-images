@@ -1,37 +1,76 @@
-Maintainers: Christophe Levis <christophe.levis@sonarsource.com> (@christophelevis),
-             Pierre Guillot <pierre.guillot@sonarsource.com> (@pierre-guillot-sonarsource),
-             Lukasz Jarocki <lukasz.jarocki@sonarsource.com> (@lukasz-jarocki-sonarsource),
-             Klaudio Sinani <klaudio.sinani@sonarsource.com> (@klaudio-sinani-sonarsource),
-             Wouter Admiraal <wouter.admiraal@sonarsource.com> (@wouter-admiraal-sonarsource)
+Maintainers: Carmine Vassallo <carmine.vassallo@sonarsource.com> (@carminevassallo),
+	Emma Mansalier <emma.mansalier@sonarsource.com> (@emma44-m),
+	Hatem Amairi <hatem.amairi@sonarsource.com> (@hatem-amairi-sonarsource),
+	Jimil Desai <jimil.desai@sonarsource.com> (@jimil09),
+	Julien Lancelot <julien.lancelot@sonarsource.com> (@julienlancelot),
+	Lukasz Jarocki <lukasz.jarocki@sonarsource.com> (@lukasz-jarocki-sonarsource),
+	Matteo Mara <matteo.mara@sonarsource.com> (@matteo-mara-sonarsource),
+	Navya Teja Otturu <navya.otturu@sonarsource.com> (@navyatejaotturu-sonarsource)
 GitRepo: https://github.com/SonarSource/docker-sonarqube.git
-GitCommit: eff0ac120a8f216d5a132f1467497eeab2a403ed
+Architectures: amd64, arm64v8
+Builder: buildkit
 
-Tags: 8.9.8-community, 8.9-community, 8-community, lts, lts-community
-Directory: 8/community
+Tags: 2026.5.2-developer, 2026.5-developer, developer, 2026.5-lta-developer
+Directory: commercial-editions/developer
+GitCommit: ebbc26acaa892731fe3db3b2eb950c70eaaa00dc
+GitFetch: refs/heads/release/2026.5
 
-Tags: 8.9.8-developer, 8.9-developer, 8-developer, lts-developer
-Directory: 8/developer
+Tags: 2026.5.2-enterprise, 2026.5-enterprise, enterprise, 2026.5-lta-enterprise
+Directory: commercial-editions/enterprise
+GitCommit: ebbc26acaa892731fe3db3b2eb950c70eaaa00dc
+GitFetch: refs/heads/release/2026.5
 
-Tags: 8.9.8-enterprise, 8.9-enterprise, 8-enterprise, lts-enterprise
-Directory: 8/enterprise
+Tags: 2026.5.2-datacenter-app, 2026.5-datacenter-app, datacenter-app, 2026.5-lta-datacenter-app
+Directory: commercial-editions/datacenter/app
+GitCommit: ebbc26acaa892731fe3db3b2eb950c70eaaa00dc
+GitFetch: refs/heads/release/2026.5
 
-Tags: 8.9.8-datacenter-app, 8.9-datacenter-app, 8-datacenter-app, lts-datacenter-app
-Directory: 8/datacenter/app
+Tags: 2026.5.2-datacenter-search, 2026.5-datacenter-search, datacenter-search, 2026.5-lta-datacenter-search
+Directory: commercial-editions/datacenter/search
+GitCommit: ebbc26acaa892731fe3db3b2eb950c70eaaa00dc
+GitFetch: refs/heads/release/2026.5
 
-Tags: 8.9.8-datacenter-search, 8.9-datacenter-search, 8-datacenter-search, lts-datacenter-search
-Directory: 8/datacenter/search
+Tags: 2026.1.6-developer, 2026.1-developer, 2026-lta-developer
+Directory: commercial-editions/developer
+GitCommit: 32fc9b7df91d6222136af6be4ea46eaa4fafff8d
+GitFetch: refs/heads/release/2026.1
 
-Tags: 9.4.0-community, 9.4-community, 9-community, community, latest
-Directory: 9/community
+Tags: 2026.1.6-enterprise, 2026.1-enterprise, 2026-lta-enterprise
+Directory: commercial-editions/enterprise
+GitCommit: 32fc9b7df91d6222136af6be4ea46eaa4fafff8d
+GitFetch: refs/heads/release/2026.1
 
-Tags: 9.4.0-developer, 9.4-developer, 9-developer, developer
-Directory: 9/developer
+Tags: 2026.1.6-datacenter-app, 2026.1-datacenter-app, 2026-lta-datacenter-app
+Directory: commercial-editions/datacenter/app
+GitCommit: 32fc9b7df91d6222136af6be4ea46eaa4fafff8d
+GitFetch: refs/heads/release/2026.1
 
-Tags: 9.4.0-enterprise, 9.4-enterprise, 9-enterprise, enterprise
-Directory: 9/enterprise
+Tags: 2026.1.6-datacenter-search, 2026.1-datacenter-search, 2026-lta-datacenter-search
+Directory: commercial-editions/datacenter/search
+GitCommit: 32fc9b7df91d6222136af6be4ea46eaa4fafff8d
+GitFetch: refs/heads/release/2026.1
 
-Tags: 9.4.0-datacenter-app, 9.4-datacenter-app, 9-datacenter-app, datacenter-app
-Directory: 9/datacenter/app
+Tags: 2025.4.9-developer, 2025.4-developer, 2025.4-lta-developer
+Directory: commercial-editions/developer
+GitCommit: cae3cdf85c6c43a4260f9d46f41781b997f400b1
+GitFetch: refs/heads/release/2025.4
 
-Tags: 9.4.0-datacenter-search, 9.4-datacenter-search, 9-datacenter-search, datacenter-search
-Directory: 9/datacenter/search
+Tags: 2025.4.9-enterprise, 2025.4-enterprise, 2025.4-lta-enterprise
+Directory: commercial-editions/enterprise
+GitCommit: cae3cdf85c6c43a4260f9d46f41781b997f400b1
+GitFetch: refs/heads/release/2025.4
+
+Tags: 2025.4.9-datacenter-app, 2025.4-datacenter-app, 2025.4-lta-datacenter-app
+Directory: commercial-editions/datacenter/app
+GitCommit: cae3cdf85c6c43a4260f9d46f41781b997f400b1
+GitFetch: refs/heads/release/2025.4
+
+Tags: 2025.4.9-datacenter-search, 2025.4-datacenter-search, 2025.4-lta-datacenter-search
+Directory: commercial-editions/datacenter/search
+GitCommit: cae3cdf85c6c43a4260f9d46f41781b997f400b1
+GitFetch: refs/heads/release/2025.4
+
+Tags: 26.9.0.129388-community, community, latest
+Directory: community-build
+GitCommit: 8f5ff7b0395d201cbc09dd95f8463eb11c8abc61
+GitFetch: refs/heads/master

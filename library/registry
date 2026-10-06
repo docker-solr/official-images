@@ -1,8 +1,8 @@
 Maintainers: Milos Gajdos (@milosgajdos),
              Sebastiaan van Stijn (@thajeztah)
-GitRepo: https://github.com/docker/distribution-library-image.git
-
-Tags: 2.8.1, 2.8, 2, latest
-Architectures: amd64, arm64v8, arm32v6, arm32v7, ppc64le, s390x
+GitRepo: https://github.com/distribution/distribution-library-image.git
 GitFetch: refs/heads/master
-GitCommit: a44a420db5ec0d5a679a72e9fb539f8a69fb93f9
+
+Tags: 3.1.2, 3.1, 3, latest
+Architectures: amd64, arm64v8, arm32v6, arm32v7, ppc64le, s390x, riscv64
+GitCommit: 775973b655bb4b11561db92a1cf50113148ce530
